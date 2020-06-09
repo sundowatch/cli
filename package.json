@@ -1,0 +1,29 @@
+{
+  "name": "cli",
+  "version": "1.0.0",
+  "description": "Create website and pens quickly",
+  "main": "website.js",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "ncp": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sundowatch/cli.git"
+  },
+  "keywords": [
+    "website",
+    "pen",
+    "cli"
+  ],
+  "author": "İbrahim Sanduvaç",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sundowatch/cli/issues"
+  },
+  "homepage": "https://github.com/sundowatch/cli#readme"
+}

@@ -1,0 +1,2 @@
+website=node E:\Programming\NodeJS\cli\website.js $*
+pen=node E:\Programming\NodeJS\cli\pen.js $*

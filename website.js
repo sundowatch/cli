@@ -12,7 +12,7 @@ if (!fs.existsSync(dir)) {
     fs.mkdirSync(dir);
 }
 
-ncp('includes/website', dir, function (err) {
+ncp(__dirname + '/includes/website', dir, function (err) {
     if (err) {
       return console.error(err);
     }

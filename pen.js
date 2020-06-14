@@ -8,7 +8,7 @@ arguments = arguments.slice(2)
 
 let dir = currentPath + "/" + arguments[0] + ".html";
 
-fs.copyFile('includes/pen/index.html', dir, (err) => {
+fs.copyFile(__dirname + '/includes/pen/index.html', dir, (err) => {
     if (err) throw err;
     console.log('Created ' + dir + ' pen!');
 });
